@@ -144,8 +144,8 @@ svg {
 /* abaut */
 
 .abaut {
-  background: #efa025;
-  padding: 60px 15px 90px;
+  background: #1b1b1b;
+  padding: 0 15px 30px;
 }
 .abaut_title {
   font-family: "Nunito";
@@ -160,6 +160,15 @@ svg {
 
   color: #ffffff;
   margin-bottom: 60px;
+}
+.img_abaut {
+  margin-bottom: -20px;
+  width: 100vw;
+}
+.img_after {
+  transform: rotate(-180deg);
+  width: 100vw;
+  margin-top: -20px;
 }
 
 /* swiper */
@@ -204,7 +213,7 @@ svg {
 
 /* footer */
 .footer {
-  background: #ededed;
+  /* background: #ededed; */
   height: 350px;
   padding: 58px 15px 75px;
 }
